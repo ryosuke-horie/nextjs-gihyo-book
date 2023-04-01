@@ -32,9 +32,13 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
     <>
       <Head>
         <meta key="charaset" name="charaset" content="utf-8" />
-        <meta key="viewport" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scales=5" />
-        <meta property='og:locale' content='ja_JP' />
-        <meta property='og:type' content='website' />
+        <meta
+          key="viewport"
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scales=5"
+        />
+        <meta property="og:locale" content="ja_JP" />
+        <meta property="og:type" content="website" />
       </Head>
       <GlobalStyle />
       <Component {...pageProps} />
