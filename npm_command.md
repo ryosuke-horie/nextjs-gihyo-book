@@ -27,3 +27,13 @@ npm install react-docgen-typescript
 nvm install 16.13.0
 nvm use 16.13.0
 ```
+
+# react-hook-formを導入
+```
+npm i react-hook-form
+```
+
+# SWRの導入
+```
+npm i swr
+```
