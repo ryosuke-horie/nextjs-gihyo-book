@@ -48,3 +48,8 @@ npm i --save-dev @types/react-content-loader
 ```
 npm i @mui/material @mui/icons-material @emotion/react @emotion/styled
 ```
+
+# テスト環境構築
+```
+npm i --save-dev @testing-library/jest-dom @testing-library/react jest jest-environment-jsdom
+```
