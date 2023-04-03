@@ -53,3 +53,4 @@ npm i @mui/material @mui/icons-material @emotion/react @emotion/styled
 ```
 npm i --save-dev @testing-library/jest-dom @testing-library/react jest jest-environment-jsdom
 ```
+jest.config.js jest.setup.js next.config.jsの3ファイルを修正
