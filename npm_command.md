@@ -37,3 +37,14 @@ npm i react-hook-form
 ```
 npm i swr
 ```
+
+# React Content Loaderの導入
+```
+npm i react-content-loader
+npm i --save-dev @types/react-content-loader
+```
+
+# Material Iconsの導入
+```
+npm i @mui/material @mui/icons-material @emotion/react @emotion/styled
+```
