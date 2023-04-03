@@ -37,3 +37,7 @@ next-env.d.ts
 
 # storybook
 storybook-static/
+
+# 環境変数
+.env
+
