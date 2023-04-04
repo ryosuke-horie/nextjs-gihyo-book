@@ -54,3 +54,19 @@ npm i @mui/material @mui/icons-material @emotion/react @emotion/styled
 npm i --save-dev @testing-library/jest-dom @testing-library/react jest jest-environment-jsdom
 ```
 jest.config.js jest.setup.js next.config.jsの3ファイルを修正
+
+# JSONサーバーの設定
+## 別のローカルディレクトリにリポジトリ（用意されたもの）をクローン
+```
+git cloen git@github.com:gihyo-book/ts-nextbook-json.git
+cd ts-nextbook-json
+npm ci
+```
+## サーバーを起動
+```
+npm start
+```
+## 動作確認
+```
+curl -X GET -i http://localhost:8000/users
+```
